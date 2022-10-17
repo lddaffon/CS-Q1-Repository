@@ -1,4 +1,107 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
+
+body {background-color: black;}
+
+      div.b {
+        text-align: left;
+      }
+
+      .title
+          {
+            font-family:    'VT323';
+            font-size:      80px;
+            color:          #7E4AB1;
+            -webkit-text-stroke: 1px white;
+            text-align: center;
+          }
+      .labeltext
+          {
+            font-family:    'VT323';
+            font-size:      30px;
+            color:          white;
+            text-indent: 7%;
+            margin: 7px;
+            padding: 5px;
+          }
+      .labelcontainer {
+        height: 50px;
+        width: 150px;
+        background-color: #7E4AB1;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .search-bar {
+        width: 100%;
+        max-width:700%;
+        background: rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: right;
+        border-radius: 60px;
+        padding: 10px 20px;
+      }
+      .bodycontainer_introduction {
+        height: 500px;
+        width: 950px;
+        background: linear-gradient(#7E4AB1, black);
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bodycontainer_lore {
+        height: 500px;
+        width: 950px;
+        background: linear-gradient(black, #7E4AB1);
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .footer {
+        height: 150px;
+        width: 950px;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(#7E4AB1, black);
+      }
+
+      a{
+        font-family:    'VT323';
+            font-size:      30px;
+            color:          white;
+            margin: 7px;
+            padding: 3%;
+            text-indent: 2%;
+            text-decoration: none; 
+      }
+
+      .text
+          {
+            font-family:    'VT323';
+            font-size:      30px;
+            color:          white;
+            margin: 7px;
+            padding: 3%;
+            text-indent: 2%;
+          }
+
+        ul.nav 
+          {
+            padding-left: 0px;
+            background-color: #7E4AB1;
+            text-align: center;
+          }
+
+        ul.nav > li 
+          {
+            display: inline-block;
+            padding: 10px 20px;
+          }
+
+        ul.nav > li:hover 
+          {
+            background-color: #7E4AB1;
+          }
+
+        ul.nav > li > a 
+          {
+            color: white;
+            text-decoration: none;
+          }
