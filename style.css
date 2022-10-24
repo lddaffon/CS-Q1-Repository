@@ -5,30 +5,15 @@ body {background-color: black;}
         text-align: left;
       }
 
-      .title
-          {
-            font-family:    'VT323';
-            font-size:      80px;
-            color:          #7E4AB1;
-            -webkit-text-stroke: 1px white;
-            text-align: center;
-          }
-      .labeltext
-          {
-            font-family:    'VT323';
-            font-size:      30px;
-            color:          white;
-            text-indent: 7%;
-            margin: 7px;
-            padding: 5px;
-          }
-      .labelcontainer {
-        height: 50px;
-        width: 150px;
-        background-color: #7E4AB1;
-        margin-left: auto;
-        margin-right: auto;
+      div.title{
+        font-size: 180px;
+        font-family:    'VT323';
+        color:          #7E4AB1;
+        -webkit-text-stroke: 3px white;
+        text-align: center;
       }
+
+  
       .search-bar {
         width: 100%;
         max-width:700%;
@@ -39,27 +24,35 @@ body {background-color: black;}
         padding: 10px 20px;
       }
       .bodycontainer_introduction {
-        height: 500px;
-        width: 950px;
-        background: linear-gradient(#7E4AB1, black);
+        width: 70%;
+        background: linear-gradient(black, #7E4AB1, black);
         margin-left: auto;
         margin-right: auto;
       }
 
       .bodycontainer_lore {
-        height: 500px;
-        width: 950px;
-        background: linear-gradient(black, #7E4AB1);
+        width: 70%;
+        background: linear-gradient(black, #7E4AB1, black);
         margin-left: auto;
         margin-right: auto;
       }
 
       .footer {
-        height: 150px;
-        width: 950px;
+        height: 400px;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
-        background: linear-gradient(#7E4AB1, black);
+        background: linear-gradient( #7E4AB1, black);
+        outline-style: dotted;
+        outline-color: white;
+      }
+
+      .footertext{
+        font-family:    'VT323';
+        font-size:     20px;
+        color:          white;
+        padding: 2%;
+        text-indent: 2%;
       }
 
       a{
@@ -75,11 +68,21 @@ body {background-color: black;}
       .text
           {
             font-family:    'VT323';
-            font-size:      30px;
+            font-size:      50px;
             color:          white;
             margin: 7px;
             padding: 3%;
             text-indent: 2%;
+            text-align: left;
+          }
+      .subtext
+          {
+            font-family:    'VT323';
+            font-size:      30px;
+            color:          white;
+            margin: 7px;
+            padding: 3%;
+            text-align: left;
           }
 
         ul.nav 
@@ -87,17 +90,20 @@ body {background-color: black;}
             padding-left: 0px;
             background-color: #7E4AB1;
             text-align: center;
+            font-size: 30px;
           }
 
         ul.nav > li 
           {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 1% 5%;
+            font-size: 50px;
           }
 
         ul.nav > li:hover 
           {
-            background-color: #7E4AB1;
+            color: white;
+            opacity: 50%;
           }
 
         ul.nav > li > a 
@@ -105,3 +111,64 @@ body {background-color: black;}
             color: white;
             text-decoration: none;
           }
+
+body {background-color: black;}
+    }
+
+
+    a{
+        font-family:    'VT323';
+        font-size:      30px;
+        color:          white;
+        padding: 5px;
+        text-decoration: none; 
+      }
+
+    .title
+          {
+            font-family:    'VT323';
+            font-size:      70px;
+            color:          #7E4AB1;
+            -webkit-text-stroke: 1px white;
+            text-indent: 5%;
+          }
+
+      .episode
+          {
+            font-family:    'VT323';
+            font-size:      60px;
+            color:          #7E4AB1;
+            -webkit-text-stroke: 1px white;
+            text-indent: 5%;
+            margin-left: 5%;
+          }
+
+      .epdescbox 
+    {
+      height: 100px;
+      width: 700px;
+      background-color: #7E4AB1;
+      margin-left: 5%;
+    } 
+
+    .epdesc
+    {
+      font-family:    'VT323';
+      font-size:      20px;
+      color:          white;
+      text-indent: 5%;
+      margin-left: 2%;
+    }
+
+    .leftalign
+    {
+      margin-left:5%;
+    }
+
+      .center > img 
+        {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 70%;
+        }
