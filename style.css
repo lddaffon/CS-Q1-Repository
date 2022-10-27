@@ -136,33 +136,28 @@ body {background-color: black;}
       .episode
           {
             font-family:    'VT323';
-            font-size:      60px;
+            font-size:      100px;
             color:          #7E4AB1;
             -webkit-text-stroke: 1px white;
-            text-indent: 5%;
-            margin-left: 5%;
+            text-align: center;
           }
 
-      .epdescbox 
+    .epdescbox 
     {
-      height: 100px;
-      width: 700px;
-      background-color: #7E4AB1;
-      margin-left: 5%;
+      width: 70%;
+      background: linear-gradient(black, #7E4AB1);
+      margin-left: auto;
+      margin-right: auto;
     } 
 
-    .epdesc
+    div.epdesc
     {
       font-family:    'VT323';
       font-size:      20px;
       color:          white;
       text-indent: 5%;
       margin-left: 2%;
-    }
-
-    .leftalign
-    {
-      margin-left:5%;
+      padding: 2%;
     }
 
       .center > img 
@@ -172,3 +167,15 @@ body {background-color: black;}
           margin-right: auto;
           width: 70%;
         }
+
+      iframe{
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 70%;
+          height: auto;
+      }
+
+
+
+    
