@@ -43,8 +43,6 @@ body {background-color: black;}
         margin-left: auto;
         margin-right: auto;
         background: linear-gradient( #7E4AB1, black);
-        outline-style: dotted;
-        outline-color: white;
       }
 
       .footertext{
