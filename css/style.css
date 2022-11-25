@@ -42,7 +42,7 @@ body {background-color: black;}
         margin-left: auto;
         margin-right: auto;
       }
-      .footer {
+      footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
@@ -87,7 +87,7 @@ body {background-color: black;}
             text-align: center;
           }
 
-        ul.nav 
+        nav 
           {
             padding-left: 0px;
             background-color: #7E4AB1;
@@ -95,14 +95,14 @@ body {background-color: black;}
             font-size: 30px;
           }
 
-        ul.nav > li 
+        nav > li 
           {
             display: inline-block;
             padding: 1% 5%;
             font-size: 50px;
           }
 
-        ul.nav > li > a 
+        nav > li > a 
           {
             color: white;
             text-decoration: none;
