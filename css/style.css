@@ -43,11 +43,10 @@ body {background-color: black;}
         margin-right: auto;
       }
       .footer {
-        height: 400px;
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        background: linear-gradient( #7E4AB1, black);
+        background-color: #7E4AB1;
       }
 
       .footertext{
@@ -83,9 +82,9 @@ body {background-color: black;}
             font-family:    'VT323';
             font-size:      30px;
             color:          white;
-            margin: 7px;
-            padding: 3%;
-            text-align: left;
+            margin-top: 1%;
+            padding: 1%;
+            text-align: center;
           }
 
         ul.nav 
