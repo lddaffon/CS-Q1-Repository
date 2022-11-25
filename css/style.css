@@ -102,12 +102,6 @@ body {background-color: black;}
             font-size: 50px;
           }
 
-        ul.nav > li:hover 
-          {
-            color: white;
-            opacity: 50%;
-          }
-
         ul.nav > li > a 
           {
             color: white;
@@ -176,6 +170,7 @@ body {background-color: black;}
           margin-right: auto;
           width: 100%;
         }
+
       iframe{
         display: block;
           margin-left: auto;
@@ -189,6 +184,56 @@ body {background-color: black;}
         height: 100vh;
       }
 
+    .p {
+  text-align: left;
+}
+    
+.firstSpan {
+  color: #7E4AB1;
+}
+    
+.firstSpan .secondSpan {
+  visibility: hidden;
+  background-color:black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+  .secondSpan{
+    font-size: 30px;
+  }
+    
+.firstSpan:hover .secondSpan {
+  visibility: visible;
+}
+
+    .tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 1% 5%;
+  color: #7E4AB1;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  font-family:    'VT323';
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
     
