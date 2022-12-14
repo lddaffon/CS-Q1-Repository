@@ -244,3 +244,13 @@ ul.membernav
             list-style-type: none;
             
           }
+
+div.memberdesc
+    {
+      font-family:    'VT323';
+      font-size:      50px;
+      color:          white;
+      text-indent: 5%;
+      margin-left: 2%;
+      padding: 2%;
+    }
