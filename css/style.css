@@ -46,7 +46,7 @@ body {background-color: black;}
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        background-color:#7E4AB1;
+        background-color:black;
       }
 
       .footertext{
@@ -254,8 +254,23 @@ div.memberdesc
       margin-left: 2%;
       padding: 2%;
     }
-.sprite {
-	background: url('../01.-Social-media-logos-and-icons-set-1180x852.jpg') no-repeat -335px -752px;
-	width: 82px;
-	height: 64px;
+.yt {
+	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -224px;
+	width: 5px;
+	height: 120px;
+}
+.spotify {
+	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -760px -384px;
+	width: 10px;
+	height: 120px;
+}
+.ig {
+	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -72px;
+	width: 10px;
+	height: 120px;
+}
+.twt {
+	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -912px -72px;
+	width: 10px;
+	height: 120px;
 }
