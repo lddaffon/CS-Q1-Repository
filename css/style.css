@@ -42,19 +42,22 @@ body {background-color: black;}
         margin-left: auto;
         margin-right: auto;
       }
-      .footer {
+      footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
         background-color:black;
+        font-size: 45px;
       }
 
       .footertext{
         font-family:    'VT323';
-        font-size:     20px;
-        color:          white;
-        padding: 2%;
-        text-indent: 2%;
+            font-size:      50px;
+            color:          white;
+            margin: 7px;
+            padding: 3%;
+            text-indent: 2%;
+            text-align: center;
       }
 
       a{
@@ -87,7 +90,7 @@ body {background-color: black;}
             text-align: center;
           }
 
-        ul.nav 
+        nav > ul
           {
             padding-left: 0px;
             background-color: #7E4AB1;
@@ -95,14 +98,14 @@ body {background-color: black;}
             font-size: 30px;
           }
 
-        ul.nav > li 
+        nav > ul > li 
           {
             display: inline-block;
             padding: 1% 5%;
             font-size: 50px;
           }
 
-        ul.nav > li > a 
+        nav > ul > li > a 
           {
             color: white;
             text-decoration: none;
@@ -274,3 +277,18 @@ div.memberdesc
 	width: 10px;
 	height: 120px;
 }
+    .socmedlinks > ul
+          {
+            padding-left: 0px;
+            background-color: black;;
+            text-align: center;
+            font-size: 30px;
+          }
+
+  div.socmedlinks > ul > a >li 
+          {
+            display: inline-block;
+            padding: 1% 5%;
+            font-size: 50px;
+            
+          }
