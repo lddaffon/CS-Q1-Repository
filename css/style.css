@@ -111,9 +111,9 @@ body {background-color: black;}
             text-decoration: none;
           }
 
-body {background-color: black;}
-    }
+        
 
+    body {background-color: black;}
 
     a{
         font-family:    'VT323';
@@ -218,12 +218,12 @@ body {background-color: black;}
   display: inline-block;
   padding: 1% 5%;
   color: #7E4AB1;
+  opacity: 0.65;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 100px;
-  background-color: black;
+  background-color: #511877;
   font-family:    'VT323';
   color: #fff;
   font-size: 15px;
@@ -238,15 +238,21 @@ body {background-color: black;}
   visibility: visible;
 }
 
+.tooltip:hover {
+  opacity: 1;
+}
+
 ul.membernav 
           {
             padding-left: 0px;
-            background-color: black;
+            background-color: #511877;
             text-align: center;
             font-size: 15px;
             list-style-type: none;
-            
           }
+ul.membernav > li:hover{
+  opacity: 0.5;
+}
 
 div.memberdesc
     {
@@ -259,23 +265,35 @@ div.memberdesc
     }
 .yt {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -224px;
-	width: 5px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
+}
+.yt:hover {
+  opacity: 0.5;
 }
 .spotify {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -760px -384px;
-	width: 10px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
+}
+.spotify:hover {
+  opacity: 0.5;
 }
 .ig {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -72px;
-	width: 10px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
+}
+.ig:hover {
+  opacity: 0.5;
 }
 .twt {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -912px -72px;
-	width: 10px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
+}
+.twt:hover {
+  opacity: 0.5;
 }
     .socmedlinks > ul
           {
@@ -285,10 +303,17 @@ div.memberdesc
             font-size: 30px;
           }
 
-  div.socmedlinks > ul > a >li 
+  div.socmedlinks > ul > a  
           {
             display: inline-block;
             padding: 1% 5%;
             font-size: 50px;
-            
           }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
