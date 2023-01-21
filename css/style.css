@@ -1,5 +1,7 @@
 
-body {background-color: black;}
+  body {background-color: black;}
+
+
 
       div.b {
         text-align: left;
@@ -80,6 +82,7 @@ body {background-color: black;}
             text-indent: 2%;
             text-align: left;
           }
+      
       .subtext
           {
             font-family:    'VT323';
@@ -267,33 +270,37 @@ div.memberdesc
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -224px;
 	width: 150px;
 	height: 150px;
+  transition: transform 0.75s;
 }
 .yt:hover {
-  opacity: 0.5;
+  transform: scale(1.5);
 }
 .spotify {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -760px -384px;
 	width: 150px;
 	height: 150px;
+  transition: transform 0.75s;
 }
 .spotify:hover {
-  opacity: 0.5;
+  transform: scale(1.5);
 }
 .ig {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -72px;
 	width: 150px;
 	height: 150px;
+  transition: transform 0.75s;
 }
 .ig:hover {
-  opacity: 0.5;
+  transform: scale(1.5);
 }
 .twt {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -912px -72px;
 	width: 150px;
 	height: 150px;
+  transition: transform 0.75s;
 }
 .twt:hover {
-  opacity: 0.5;
+  transform: scale(1.5);
 }
     .socmedlinks > ul
           {
@@ -317,3 +324,48 @@ div.memberdesc
   justify-content: center;
   align-content: space-around;
 }
+
+@media only screen and (max-width: 750px) {
+            div.title{
+              font-size: 100px;
+            }
+            .text {
+              font-size: 20px;
+            }
+            .subtext{
+              font-size: 10px;
+            }
+            .footertext{
+              font-size: 20px;
+            }
+            .yt{
+              transform: scale(0.5);
+            }
+            .spotify{
+              transform: scale(0.5);
+            }
+            .ig{
+              transform: scale(0.5);
+            }
+            .twt{
+              transform: scale(0.5);
+            }
+            
+            .flex-container a{
+              width: 75px;
+              height: 75px;
+            }
+
+            .memberdesc li{
+              font-size: 20px;
+            }
+            .memberdesc li>a{
+              font-size: 10px;
+            }
+            .firstSpan .secondSpan{
+              font-size: 20px;
+            }
+            .tooltip a{
+              font-size: 15px;
+            }
+          }
