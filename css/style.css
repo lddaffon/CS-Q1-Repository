@@ -273,7 +273,7 @@ div.memberdesc
   transition: transform 0.75s;
 }
 .yt:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 .spotify {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -760px -384px;
@@ -282,7 +282,7 @@ div.memberdesc
   transition: transform 0.75s;
 }
 .spotify:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 .ig {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -296px -72px;
@@ -291,7 +291,7 @@ div.memberdesc
   transition: transform 0.75s;
 }
 .ig:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 .twt {
 	background: url('../fea7ef4e3ea0f16829d9986a1f4ff93e.jpg') no-repeat -912px -72px;
@@ -300,7 +300,7 @@ div.memberdesc
   transition: transform 0.75s;
 }
 .twt:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
     .socmedlinks > ul
           {
@@ -322,7 +322,7 @@ div.memberdesc
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-around;
+  
 }
 
 @media only screen and (max-width: 750px) {
@@ -339,16 +339,28 @@ div.memberdesc
               font-size: 20px;
             }
             .yt{
-              transform: scale(0.5);
+              scale:0.5;
+            }
+            .yt:hover {
+              transform: scale(1.25);
             }
             .spotify{
-              transform: scale(0.5);
+              scale:0.5;
+            }
+            .spotify:hover {
+              transform: scale(1.25);
             }
             .ig{
-              transform: scale(0.5);
+              scale:0.5;
+            }
+            .ig:hover {
+              transform: scale(1.25);
             }
             .twt{
-              transform: scale(0.5);
+              scale:0.5;
+            }
+            .twt:hover {
+              transform: scale(1.25);
             }
             
             .flex-container a{
